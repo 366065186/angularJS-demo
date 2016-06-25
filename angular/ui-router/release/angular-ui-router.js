@@ -2408,7 +2408,7 @@ function $StateProvider(   $urlRouterProvider,   $urlMatcherFactory) {
    * @description
    * Allows you to extend (carefully) or override (at your own peril) the 
    * `stateBuilder` object used internally by `$stateProvider`. This can be used 
-   * to add custom functionality to uiRouterViews, for example inferring templateUrl 
+   * to add custom functionality to routerViews, for example inferring templateUrl 
    * based on the state name.
    *
    * When passing only a name, it returns the current (original or decorated) builder

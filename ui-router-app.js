@@ -8,16 +8,16 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         //那么视图就会自动加载到ui-view里
         .state('main', {
             url: '/main',
-            templateUrl: 'uiRouterViews/main.html'
+            templateUrl: 'routerViews/main.html'
         })
         //通过"."的方式声明子视图
         //这样，就能实现嵌套路由了
         .state('main.pagea', {
             url: '/pagea',
-            templateUrl: 'uiRouterViews/a.html'
+            templateUrl: 'routerViews/a.html'
         })
         .state('main.pageb', {
             url: '/pageb',
-            templateUrl: 'uiRouterViews/b.html'
+            templateUrl: 'routerViews/b.html'
         })
 });
